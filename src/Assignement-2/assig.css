@@ -1,0 +1,79 @@
+/* Body css*/
+.leftbar {
+  width: 100%;
+}
+.discoverbtn {
+  display: block;
+}
+.notTobeDisplay {
+  display: block;
+}
+.onebyone {
+  display: block;
+}
+.test {
+  background-color: red;
+}
+.bodycontainer {
+  padding: 30px;
+}
+
+/* Stats Css */
+
+.statsBody {
+  width: 100%;
+}
+.mainBox {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.boxdiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+
+@media (min-width: 280px) {
+  .notTobeDisplay {
+    display: none;
+  }
+  .discoverbtn {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .rightbar {
+    width: 38%;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  .onebyone {
+    display: flex;
+  }
+  .notTobeDisplay {
+    display: block;
+  }
+  .leftbar {
+    width: 60%;
+  }
+  .discoverbtn {
+    display: block;
+    text-transform: none;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 30px;
+    width: 10%;
+    height: 40px;
+  }
+}

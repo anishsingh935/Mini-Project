@@ -1,0 +1,13 @@
+.inputContainer {
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.inputBar {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #c6c6c68f;
+  color: black;
+}

@@ -1,0 +1,45 @@
+.main {
+  padding: 2%;
+}
+
+.mainButton1 {
+  width: 100%;
+}
+
+.mainButton2 {
+  margin-left: 0%;
+  margin-top: 2%;
+  width: 100%;
+}
+.main h1 {
+  color: rgb(233, 112, 42);
+}
+.BoxParent {
+  width: 100%;
+}
+.mainBox {
+  width: 100%;
+  padding: 10px;
+}
+.main h1 {
+  padding: 10px;
+}
+
+@media (min-width: 1200px) {
+  .BoxParent {
+    display: flex;
+    width: 100%;
+  }
+  .mainButton1 {
+    width: 100%;
+  }
+  .main h1 {
+    color: rgb(233, 112, 42);
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+  .mainButton2 {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
